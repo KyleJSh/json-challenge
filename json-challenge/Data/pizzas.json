@@ -1,11 +1,14 @@
 [
   { "name":"Meat Lovers",
-    "toppings": ["Pepperoni", "Sausage", "Ham"]
+    "toppings": ["Pepperoni", "Sausage", "Ham"],
+    "amount":"3"
   },
   { "name":"Cheesy",
-    "toppings": ["Mozerella", "Cheddar", "Feta"]
+    "toppings": ["Mozerella", "Cheddar", "Feta"],
+    "amount":"4"
   },
   { "name":"Vegetarian",
-    "toppings": ["Green Peppers", "Spinach", "Mushrooms"]
+    "toppings": ["Green Peppers", "Spinach", "Mushrooms"],
+    "amount":"2"
   }
 ]

@@ -24,8 +24,9 @@ struct ContentView: View {
                     Text(pizza.toppings[1])
                     Text(pizza.toppings[2])
                 }
+                Text(pizza.amount)
+                    .font(.headline)
             }
-            
         }
     }
 }

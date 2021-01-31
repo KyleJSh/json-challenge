@@ -10,7 +10,7 @@ import Foundation
 class Pizza: Identifiable, Decodable {
     
     var id:UUID?
-    var name = ""
-    var toppings = ""
+    var name:String
+    var toppings:[String]
     
 }

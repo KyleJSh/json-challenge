@@ -11,9 +11,9 @@
 		C866FEEC25C63C710008CD56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866FEEB25C63C710008CD56 /* ContentView.swift */; };
 		C866FEEE25C63C740008CD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C866FEED25C63C740008CD56 /* Assets.xcassets */; };
 		C866FEF125C63C740008CD56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C866FEF025C63C740008CD56 /* Preview Assets.xcassets */; };
-		C866FEFE25C63CAA0008CD56 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C866FEFD25C63CAA0008CD56 /* data.json */; };
-		C866FF0225C63CD00008CD56 /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866FF0125C63CD00008CD56 /* viewmodel.swift */; };
-		C866FF0525C63CDB0008CD56 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866FF0425C63CDB0008CD56 /* model.swift */; };
+		C866FEFE25C63CAA0008CD56 /* pizzas.json in Resources */ = {isa = PBXBuildFile; fileRef = C866FEFD25C63CAA0008CD56 /* pizzas.json */; };
+		C866FF0225C63CD00008CD56 /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866FF0125C63CD00008CD56 /* PizzaModel.swift */; };
+		C866FF0525C63CDB0008CD56 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = C866FF0425C63CDB0008CD56 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		C866FEED25C63C740008CD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C866FEF025C63C740008CD56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C866FEF225C63C740008CD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C866FEFD25C63CAA0008CD56 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		C866FF0125C63CD00008CD56 /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
-		C866FF0425C63CDB0008CD56 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		C866FEFD25C63CAA0008CD56 /* pizzas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pizzas.json; sourceTree = "<group>"; };
+		C866FF0125C63CD00008CD56 /* PizzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
+		C866FF0425C63CDB0008CD56 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		C866FEFA25C63C860008CD56 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C866FF0425C63CDB0008CD56 /* model.swift */,
+				C866FF0425C63CDB0008CD56 /* Pizza.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,7 +97,7 @@
 		C866FEFB25C63C8F0008CD56 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				C866FF0125C63CD00008CD56 /* viewmodel.swift */,
+				C866FF0125C63CD00008CD56 /* PizzaModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 		C866FEFC25C63C970008CD56 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				C866FEFD25C63CAA0008CD56 /* data.json */,
+				C866FEFD25C63CAA0008CD56 /* pizzas.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C866FEF125C63C740008CD56 /* Preview Assets.xcassets in Resources */,
-				C866FEFE25C63CAA0008CD56 /* data.json in Resources */,
+				C866FEFE25C63CAA0008CD56 /* pizzas.json in Resources */,
 				C866FEEE25C63C740008CD56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,8 +182,8 @@
 			files = (
 				C866FEEC25C63C710008CD56 /* ContentView.swift in Sources */,
 				C866FEEA25C63C710008CD56 /* json_challengeApp.swift in Sources */,
-				C866FF0225C63CD00008CD56 /* viewmodel.swift in Sources */,
-				C866FF0525C63CDB0008CD56 /* model.swift in Sources */,
+				C866FF0225C63CD00008CD56 /* PizzaModel.swift in Sources */,
+				C866FF0525C63CDB0008CD56 /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,11 +13,20 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
+        List(model.pizzas) { pizza in
+            
+            VStack (alignment: .leading) {
+                
+                Text(pizza.name)
+                    .font(.headline)
+                HStack {
+                    Text(pizza.toppings[0])
+                    Text(pizza.toppings[1])
+                    Text(pizza.toppings[2])
+                }
+            }
             
         }
-        
-        
     }
 }
 

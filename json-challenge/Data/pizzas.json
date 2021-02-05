@@ -1,7 +1,7 @@
 [
   { "name":"Meat Lovers",
     "toppings": ["Pepperoni", "Sausage", "Ham"],
-    "amount":"3"
+    "amount":"1"
   },
   { "name":"Cheesy",
     "toppings": ["Mozerella", "Cheddar", "Feta"],
